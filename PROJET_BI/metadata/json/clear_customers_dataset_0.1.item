@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_MauX4LYdEe6usY5DOGrSow" name="clear_customers_dataset" dataPackage="_Mau-87YdEe6usY5DOGrSow" JSONFilePath="C:/Users/adelj/TOS_BD-20211109_1610-V8.0.1/workspace/dimensionCorrectedCustomer.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_Mau-8LYdEe6usY5DOGrSow" LimitBoucle="50" AbsoluteXPathQuery="$.data[*]">
+      <schemaTargets xmi:id="_Mau-8bYdEe6usY5DOGrSow" RelativeXPathQuery="address_id" TagName="address_id"/>
+      <schemaTargets xmi:id="_Mau-8rYdEe6usY5DOGrSow" RelativeXPathQuery="customer_id" TagName="customer_id"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Mau-87YdEe6usY5DOGrSow" name="default" dataManager="_MauX4LYdEe6usY5DOGrSow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Mau-9LYdEe6usY5DOGrSow" id="_yW63wLYcEe6usY5DOGrSow" label="clear_customer">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mau-9bYdEe6usY5DOGrSow" label="address_id" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mau-9rYdEe6usY5DOGrSow" label="customer_id" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_kC6LELRlEe6Hv-dvZkL-tg" name="olist_geolocation_data" dataPackage="_kC6LEbRlEe6Hv-dvZkL-tg" Server="Localhost 127.0.0.1" FilePath="C:/Users/adelj/Desktop/dataset/olist_geolocation_dataset.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kC6LEbRlEe6Hv-dvZkL-tg" name="default" dataManager="_kC6LELRlEe6Hv-dvZkL-tg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kC6LErRlEe6Hv-dvZkL-tg" id="_clW0YLRlEe6Hv-dvZkL-tg" label="geolocation">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kC6LE7RlEe6Hv-dvZkL-tg" label="_geolocation_zip_code_prefix" length="7" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kC6LFLRlEe6Hv-dvZkL-tg" label="_geolocation_lat" length="19" precision="16" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kC6LFbRlEe6Hv-dvZkL-tg" label="_geolocation_lng" length="19" precision="16" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kC6LFrRlEe6Hv-dvZkL-tg" label="_geolocation_city" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kC6LF7RlEe6Hv-dvZkL-tg" label="_geolocation_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

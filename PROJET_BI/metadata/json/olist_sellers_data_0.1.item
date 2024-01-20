@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_bjNQUbRkEe6Hv-dvZkL-tg" name="sellers" dataPackage="_bjNQV7RkEe6Hv-dvZkL-tg" JSONFilePath="C:/Users/adelj/Desktop/dataset/olist_sellers_dataset.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_bjNQUrRkEe6Hv-dvZkL-tg" LimitBoucle="50" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_bjNQU7RkEe6Hv-dvZkL-tg" RelativeXPathQuery="seller_id" TagName="seller_id"/>
+      <schemaTargets xmi:id="_bjNQVLRkEe6Hv-dvZkL-tg" RelativeXPathQuery="seller_zip_code_prefix" TagName="seller_zip_code_prefix"/>
+      <schemaTargets xmi:id="_bjNQVbRkEe6Hv-dvZkL-tg" RelativeXPathQuery="seller_state" TagName="seller_state"/>
+      <schemaTargets xmi:id="_bjNQVrRkEe6Hv-dvZkL-tg" RelativeXPathQuery="seller_city" TagName="seller_city"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bjNQV7RkEe6Hv-dvZkL-tg" name="default" dataManager="_bjNQUbRkEe6Hv-dvZkL-tg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bjNQWLRkEe6Hv-dvZkL-tg" id="_1bOzsLRjEe6Hv-dvZkL-tg" label="sellers">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bjNQWbRkEe6Hv-dvZkL-tg" label="seller_id" length="32" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bjNQWrRkEe6Hv-dvZkL-tg" label="seller_zip_code_prefix" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bjNQW7RkEe6Hv-dvZkL-tg" label="seller_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bjNQXLRkEe6Hv-dvZkL-tg" label="seller_city" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

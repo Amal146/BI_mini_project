@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_tMJzgLZSEe6m1ri4_p1I-g" name="datedimension" dataPackage="_tMJzgbZSEe6m1ri4_p1I-g" Server="Localhost 127.0.0.1" FilePath="C:/Users/adelj/TOS_BD-20211109_1610-V8.0.1/workspace/dateDimension.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_tMJzgbZSEe6m1ri4_p1I-g" name="default" dataManager="_tMJzgLZSEe6m1ri4_p1I-g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_tMJzgrZSEe6m1ri4_p1I-g" id="_kN2bwLZSEe6m1ri4_p1I-g" label="datedimension">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tMJzg7ZSEe6m1ri4_p1I-g" label="date_id" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tMJzhLZSEe6m1ri4_p1I-g" label="year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tMJzhbZSEe6m1ri4_p1I-g" label="month" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tMJzhrZSEe6m1ri4_p1I-g" label="day" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

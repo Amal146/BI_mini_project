@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_1uxogLRoEe6Hv-dvZkL-tg" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_X3TpgLRoEe6Hv-dvZkL-tg" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_n6c9ALRoEe6Hv-dvZkL-tg" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_sy4EgLRoEe6Hv-dvZkL-tg" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_yPSp4LRoEe6Hv-dvZkL-tg" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_C7dFMLRpEe6Hv-dvZkL-tg" path="" type="PROCESS"/>
+  <deletedItems id="_DO76wLY-Ee6usY5DOGrSow" path="" type="PROCESS"/>
+  <deletedItems id="_M-DskLSrEe6Hv-dvZkL-tg" path="" type="PROCESS"/>
+  <deletedItems id="_ewbGcLVlEe6usY5DOGrSow" path="" type="PROCESS"/>
+  <deletedItems id="_g4i6ULSFEe6Hv-dvZkL-tg" path="" type="PROCESS"/>
+  <deletedItems id="_n99rkLSKEe6Hv-dvZkL-tg" path="" type="PROCESS"/>
+  <deletedItems id="_o4JSULR-Ee6Hv-dvZkL-tg" path="" type="PROCESS"/>
+  <deletedItems id="_8Re6QLZaEe6m1ri4_p1I-g" path="Snowflake/UserDefined" type="SQLPATTERNS"/>
+</recyclebin:RecycleBin>

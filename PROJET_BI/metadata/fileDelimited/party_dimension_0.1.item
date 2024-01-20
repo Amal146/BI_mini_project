@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_oPB7kLY5Ee6usY5DOGrSow" name="party_dimension" dataPackage="_oPB7kbY5Ee6usY5DOGrSow" Server="Localhost 127.0.0.1" FilePath="C:/Users/adelj/TOS_BD-20211109_1610-V8.0.1/workspace/partyDimension.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_oPB7kbY5Ee6usY5DOGrSow" name="default" dataManager="_oPB7kLY5Ee6usY5DOGrSow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_oPB7krY5Ee6usY5DOGrSow" id="_WMZckLY5Ee6usY5DOGrSow" label="partyDimension">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oPB7k7Y5Ee6usY5DOGrSow" label="party_id" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oPB7lLY5Ee6usY5DOGrSow" label="address_id" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oPB7lbY5Ee6usY5DOGrSow" label="party_type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

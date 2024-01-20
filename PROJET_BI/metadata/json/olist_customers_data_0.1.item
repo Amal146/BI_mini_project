@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_yxULILRjEe6Hv-dvZkL-tg" name="olist_customers_data" dataPackage="_yx5Z9rRjEe6Hv-dvZkL-tg" JSONFilePath="C:/Users/adelj/Desktop/dataset/olist_customers_dataset.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_yx5Z8LRjEe6Hv-dvZkL-tg" LimitBoucle="50" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_yx5Z8bRjEe6Hv-dvZkL-tg" RelativeXPathQuery="customer_id" TagName="customer_id"/>
+      <schemaTargets xmi:id="_yx5Z8rRjEe6Hv-dvZkL-tg" RelativeXPathQuery="customer_unique_id" TagName="customer_unique_id"/>
+      <schemaTargets xmi:id="_yx5Z87RjEe6Hv-dvZkL-tg" RelativeXPathQuery="customer_zip_code_prefix" TagName="customer_zip_code_prefix"/>
+      <schemaTargets xmi:id="_yx5Z9LRjEe6Hv-dvZkL-tg" RelativeXPathQuery="customer_city" TagName="customer_city"/>
+      <schemaTargets xmi:id="_yx5Z9bRjEe6Hv-dvZkL-tg" RelativeXPathQuery="customer_state" TagName="customer_state"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_yx5Z9rRjEe6Hv-dvZkL-tg" name="default" dataManager="_yxULILRjEe6Hv-dvZkL-tg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yz4W8LRjEe6Hv-dvZkL-tg" id="_ZdCVYLRhEe6Hv-dvZkL-tg" label="customers">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yz4W8bRjEe6Hv-dvZkL-tg" label="customer_id" length="32" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yz4W8rRjEe6Hv-dvZkL-tg" label="customer_unique_id" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yz4W87RjEe6Hv-dvZkL-tg" label="customer_zip_code_prefix" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yz4W9LRjEe6Hv-dvZkL-tg" label="customer_city" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yz4W9bRjEe6Hv-dvZkL-tg" label="customer_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

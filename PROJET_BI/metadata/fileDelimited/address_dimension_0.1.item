@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_4O0T4LZLEe6m1ri4_p1I-g" name="address_dimension" dataPackage="_4O068LZLEe6m1ri4_p1I-g" Server="Localhost 127.0.0.1" FilePath="C:/Users/adelj/TOS_BD-20211109_1610-V8.0.1/workspace/addressDimension.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_4O068LZLEe6m1ri4_p1I-g" name="default" dataManager="_4O0T4LZLEe6m1ri4_p1I-g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4O068bZLEe6m1ri4_p1I-g" id="_mN-koLZLEe6m1ri4_p1I-g" label="addressDimension">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4O068rZLEe6m1ri4_p1I-g" label="address_id" length="5" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4O0687ZLEe6m1ri4_p1I-g" label="state" length="80" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4O069LZLEe6m1ri4_p1I-g" label="city" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
