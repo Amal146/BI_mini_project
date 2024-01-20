@@ -1,1 +1,0 @@
-# BI_mini_project
